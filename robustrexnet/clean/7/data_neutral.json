@@ -1,65 +1,65 @@
 {
-    "text": "You're not a runaway who are you",
+    "text": "Rat came and replied on the leaves",
     "loudness": {
         "left": [
-            "lightgray",
-            "lightgray",
+            "rgb(69, 170, 227)",
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray",
+            "lightgray"
         ],
         "right": [
-            "lightgray",
-            "lightgray",
+            "rgb(69, 170, 227)",
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray",
+            "lightgray"
         ],
         "rlt": "Higher"
     },
     "average_pitch": {
         "left": [
-            "lightgray",
-            "lightgray",
+            "rgb(69, 170, 227)",
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray",
+            "lightgray"
         ],
         "right": [
-            "lightgray",
-            "lightgray",
+            "rgb(69, 170, 227)",
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray",
+            "lightgray"
         ],
         "rlt": "Higher"
     },
     "pitch_range": {
         "left": [
+            "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
-            "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "right": [
+            "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
-            "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "rlt": "Higher"
     },
@@ -68,78 +68,78 @@
             "lightgray",
             "lightgray",
             "lightgray",
+            "lightgray",
             "rgb(69, 170, 227)",
-            "lightgray",
-            "lightgray",
-            "rgb(69, 170, 227)"
+            "rgb(69, 170, 227)",
+            "lightgray"
         ],
         "right": [
             "lightgray",
-            "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
             "lightgray",
             "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)"
+            "rgb(69, 170, 227)",
+            "lightgray"
         ],
         "rlt": "Longer"
     },
     "pauses": {
         "left": [
             "lightgray",
-            "lightgray",
+            "rgb(69, 170, 227)",
             "lightgray",
             "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
+            "lightgray",
             "lightgray",
             "white"
         ],
         "right": [
             "lightgray",
-            "lightgray",
+            "rgb(69, 170, 227)",
             "lightgray",
             "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
+            "lightgray",
             "lightgray",
             "white"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
-    "target_emotion": "Happy",
+    "target_emotion": "Angry",
     "counterfactual_emotion": "Neutral",
     "tgt_word_clips": [
-        "7/word_clips_0/tgt_you're_0.wav",
-        "7/word_clips_0/tgt_not_1.wav",
-        "7/word_clips_0/tgt_a_2.wav",
-        "7/word_clips_0/tgt_runaway_3.wav",
-        "7/word_clips_0/tgt_who_4.wav",
-        "7/word_clips_0/tgt_are_5.wav",
-        "7/word_clips_0/tgt_you_6.wav"
+        "7/word_clips_0/tgt_rat_0.wav",
+        "7/word_clips_0/tgt_came_1.wav",
+        "7/word_clips_0/tgt_and_2.wav",
+        "7/word_clips_0/tgt_replied_3.wav",
+        "7/word_clips_0/tgt_on_4.wav",
+        "7/word_clips_0/tgt_the_5.wav",
+        "7/word_clips_0/tgt_leaves_6.wav"
     ],
     "cf_word_clips": [
-        "7/word_clips_0/cf_you_0.wav",
-        "7/word_clips_0/cf_not_2.wav",
-        "7/word_clips_0/cf_a_3.wav",
-        "7/word_clips_0/cf_runaway_4.wav",
-        "7/word_clips_0/cf_who_5.wav",
-        "7/word_clips_0/cf_are_6.wav",
-        "7/word_clips_0/cf_you_7.wav"
+        "7/word_clips_0/cf_right_0.wav",
+        "7/word_clips_0/cf_came_1.wav",
+        "7/word_clips_0/cf_in_2.wav",
+        "7/word_clips_0/cf_replied_3.wav",
+        "7/word_clips_0/cf_on_4.wav",
+        "7/word_clips_0/cf_the_5.wav",
+        "7/word_clips_0/cf_leafs_6.wav"
     ],
     "tgt_pause_word_clips": [
-        "7/word_clips_0/tgt_consecutive_you're_not_0.wav",
-        "7/word_clips_0/tgt_consecutive_not_a_1.wav",
-        "7/word_clips_0/tgt_consecutive_a_runaway_2.wav",
-        "7/word_clips_0/tgt_consecutive_runaway_who_3.wav",
-        "7/word_clips_0/tgt_consecutive_who_are_4.wav",
-        "7/word_clips_0/tgt_consecutive_are_you_5.wav"
+        "7/word_clips_0/tgt_consecutive_rat_came_0.wav",
+        "7/word_clips_0/tgt_consecutive_came_and_1.wav",
+        "7/word_clips_0/tgt_consecutive_and_replied_2.wav",
+        "7/word_clips_0/tgt_consecutive_replied_on_3.wav",
+        "7/word_clips_0/tgt_consecutive_on_the_4.wav",
+        "7/word_clips_0/tgt_consecutive_the_leaves_5.wav"
     ],
     "cf_pause_word_clips": [
-        "7/word_clips_0/cf_consecutive_you_are_0.wav",
-        "7/word_clips_0/cf_consecutive_not_a_2.wav",
-        "7/word_clips_0/cf_consecutive_a_runaway_3.wav",
-        "7/word_clips_0/cf_consecutive_runaway_who_4.wav",
-        "7/word_clips_0/cf_consecutive_who_are_5.wav",
-        "7/word_clips_0/cf_consecutive_are_you_6.wav"
+        "7/word_clips_0/cf_consecutive_right_came_0.wav",
+        "7/word_clips_0/cf_consecutive_came_in_1.wav",
+        "7/word_clips_0/cf_consecutive_in_replied_2.wav",
+        "7/word_clips_0/cf_consecutive_replied_on_3.wav",
+        "7/word_clips_0/cf_consecutive_on_the_4.wav",
+        "7/word_clips_0/cf_consecutive_the_leafs_5.wav"
     ],
     "target_audio_path": "7/word_clips_0/tgt_0.wav",
     "counterfactual_audio_path": "7/word_clips_0/cf_0.wav"

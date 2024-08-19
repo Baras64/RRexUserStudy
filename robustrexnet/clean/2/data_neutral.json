@@ -1,13 +1,11 @@
 {
-    "text": "As rich as peter son in law",
+    "text": "I choose the right way",
     "loudness": {
         "left": [
             "lightgray",
             "lightgray",
             "lightgray",
             "rgb(69, 170, 227)",
-            "lightgray",
-            "lightgray",
             "rgb(69, 170, 227)"
         ],
         "right": [
@@ -15,11 +13,9 @@
             "lightgray",
             "lightgray",
             "rgb(69, 170, 227)",
-            "lightgray",
-            "lightgray",
             "rgb(69, 170, 227)"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
     "average_pitch": {
         "left": [
@@ -27,8 +23,6 @@
             "lightgray",
             "lightgray",
             "rgb(69, 170, 227)",
-            "lightgray",
-            "lightgray",
             "rgb(69, 170, 227)"
         ],
         "right": [
@@ -36,8 +30,6 @@
             "lightgray",
             "lightgray",
             "rgb(69, 170, 227)",
-            "lightgray",
-            "lightgray",
             "rgb(69, 170, 227)"
         ],
         "rlt": "Similar"
@@ -46,100 +38,80 @@
         "left": [
             "lightgray",
             "lightgray",
-            "lightgray",
             "rgb(69, 170, 227)",
-            "lightgray",
             "lightgray",
             "rgb(69, 170, 227)"
         ],
         "right": [
             "lightgray",
             "lightgray",
-            "lightgray",
             "rgb(69, 170, 227)",
-            "lightgray",
             "lightgray",
             "rgb(69, 170, 227)"
         ],
-        "rlt": "Similar"
+        "rlt": "Lower"
     },
     "speed": {
         "left": [
-            "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
             "rgb(69, 170, 227)",
-            "lightgray",
-            "lightgray",
+            "rgb(69, 170, 227)",
             "lightgray"
         ],
         "right": [
-            "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
             "rgb(69, 170, 227)",
-            "lightgray",
-            "lightgray",
+            "rgb(69, 170, 227)",
             "lightgray"
         ],
-        "rlt": "Similar"
+        "rlt": "Longer"
     },
     "pauses": {
         "left": [
             "lightgray",
-            "lightgray",
-            "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
-            "lightgray",
+            "rgb(69, 170, 227)",
             "white"
         ],
         "right": [
+            "lightgray",
             "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
+            "lightgray",
             "rgb(69, 170, 227)",
             "white"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
-    "target_emotion": "Neutral",
+    "target_emotion": "Angry",
     "counterfactual_emotion": "Neutral",
     "tgt_word_clips": [
-        "2/word_clips_0/tgt_as_0.wav",
-        "2/word_clips_0/tgt_rich_1.wav",
-        "2/word_clips_0/tgt_as_2.wav",
-        "2/word_clips_0/tgt_peter_3.wav",
-        "2/word_clips_0/tgt_son_4.wav",
-        "2/word_clips_0/tgt_in_5.wav",
-        "2/word_clips_0/tgt_law_6.wav"
+        "2/word_clips_0/tgt_i_0.wav",
+        "2/word_clips_0/tgt_choose_1.wav",
+        "2/word_clips_0/tgt_the_2.wav",
+        "2/word_clips_0/tgt_right_3.wav",
+        "2/word_clips_0/tgt_way_4.wav"
     ],
     "cf_word_clips": [
-        "2/word_clips_0/cf_as_0.wav",
-        "2/word_clips_0/cf_rich_1.wav",
-        "2/word_clips_0/cf_as_2.wav",
-        "2/word_clips_0/cf_peter_3.wav",
-        "2/word_clips_0/cf_son_4.wav",
-        "2/word_clips_0/cf_in_5.wav",
-        "2/word_clips_0/cf_law_6.wav"
+        "2/word_clips_0/cf_i_0.wav",
+        "2/word_clips_0/cf_choose_1.wav",
+        "2/word_clips_0/cf_the_2.wav",
+        "2/word_clips_0/cf_right_3.wav",
+        "2/word_clips_0/cf_way_4.wav"
     ],
     "tgt_pause_word_clips": [
-        "2/word_clips_0/tgt_consecutive_as_rich_0.wav",
-        "2/word_clips_0/tgt_consecutive_rich_as_1.wav",
-        "2/word_clips_0/tgt_consecutive_as_peter_2.wav",
-        "2/word_clips_0/tgt_consecutive_peter_son_3.wav",
-        "2/word_clips_0/tgt_consecutive_son_in_4.wav",
-        "2/word_clips_0/tgt_consecutive_in_law_5.wav"
+        "2/word_clips_0/tgt_consecutive_i_choose_0.wav",
+        "2/word_clips_0/tgt_consecutive_choose_the_1.wav",
+        "2/word_clips_0/tgt_consecutive_the_right_2.wav",
+        "2/word_clips_0/tgt_consecutive_right_way_3.wav"
     ],
     "cf_pause_word_clips": [
-        "2/word_clips_0/cf_consecutive_as_rich_0.wav",
-        "2/word_clips_0/cf_consecutive_rich_as_1.wav",
-        "2/word_clips_0/cf_consecutive_as_peter_2.wav",
-        "2/word_clips_0/cf_consecutive_peter_son_3.wav",
-        "2/word_clips_0/cf_consecutive_son_in_4.wav",
-        "2/word_clips_0/cf_consecutive_in_law_5.wav"
+        "2/word_clips_0/cf_consecutive_i_choose_0.wav",
+        "2/word_clips_0/cf_consecutive_choose_the_1.wav",
+        "2/word_clips_0/cf_consecutive_the_right_2.wav",
+        "2/word_clips_0/cf_consecutive_right_way_3.wav"
     ],
     "target_audio_path": "2/word_clips_0/tgt_0.wav",
     "counterfactual_audio_path": "2/word_clips_0/cf_0.wav"

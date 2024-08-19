@@ -1,0 +1,160 @@
+{
+    "text": "And what are doves and what are doves",
+    "loudness": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Higher"
+    },
+    "average_pitch": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Higher"
+    },
+    "pitch_range": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Similar"
+    },
+    "speed": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Longer"
+    },
+    "pauses": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "white"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "white"
+        ],
+        "rlt": "Higher"
+    },
+    "target_emotion": "Angry",
+    "counterfactual_emotion": "Sad",
+    "tgt_word_clips": [
+        "4/word_clips_3/tgt_and_0.wav",
+        "4/word_clips_3/tgt_what_1.wav",
+        "4/word_clips_3/tgt_our_2.wav",
+        "4/word_clips_3/tgt_doves_3.wav",
+        "4/word_clips_3/tgt_and_4.wav",
+        "4/word_clips_3/tgt_what_5.wav",
+        "4/word_clips_3/tgt_our_6.wav",
+        "4/word_clips_3/tgt_doves_7.wav"
+    ],
+    "cf_word_clips": [
+        "4/word_clips_3/cf_and_0.wav",
+        "4/word_clips_3/cf_what_1.wav",
+        "4/word_clips_3/cf_or_2.wav",
+        "4/word_clips_3/cf_doves_3.wav",
+        "4/word_clips_3/cf_and_4.wav",
+        "4/word_clips_3/cf_what_5.wav",
+        "4/word_clips_3/cf_or_6.wav",
+        "4/word_clips_3/cf_doves_7.wav"
+    ],
+    "tgt_pause_word_clips": [
+        "4/word_clips_3/tgt_consecutive_and_what_0.wav",
+        "4/word_clips_3/tgt_consecutive_what_our_1.wav",
+        "4/word_clips_3/tgt_consecutive_our_doves_2.wav",
+        "4/word_clips_3/tgt_consecutive_doves_and_3.wav",
+        "4/word_clips_3/tgt_consecutive_and_what_4.wav",
+        "4/word_clips_3/tgt_consecutive_what_our_5.wav",
+        "4/word_clips_3/tgt_consecutive_our_doves_6.wav"
+    ],
+    "cf_pause_word_clips": [
+        "4/word_clips_3/cf_consecutive_and_what_0.wav",
+        "4/word_clips_3/cf_consecutive_what_or_1.wav",
+        "4/word_clips_3/cf_consecutive_or_doves_2.wav",
+        "4/word_clips_3/cf_consecutive_doves_and_3.wav",
+        "4/word_clips_3/cf_consecutive_and_what_4.wav",
+        "4/word_clips_3/cf_consecutive_what_or_5.wav",
+        "4/word_clips_3/cf_consecutive_or_doves_6.wav"
+    ],
+    "target_audio_path": "4/word_clips_3/tgt_3.wav",
+    "counterfactual_audio_path": "4/word_clips_3/cf_3.wav"
+}

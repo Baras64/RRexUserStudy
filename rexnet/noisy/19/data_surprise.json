@@ -1,0 +1,154 @@
+{
+    "text": "And what are doves and what are doves",
+    "loudness": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Higher"
+    },
+    "average_pitch": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Similar"
+    },
+    "pitch_range": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Similar"
+    },
+    "speed": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Shorter"
+    },
+    "pauses": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "white"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "white"
+        ],
+        "rlt": "Lower"
+    },
+    "target_emotion": "Surprise",
+    "counterfactual_emotion": "Surprise",
+    "tgt_word_clips": [
+        "19/word_clips_4/tgt_and_0.wav",
+        "19/word_clips_4/tgt_what_1.wav",
+        "19/word_clips_4/tgt_or_2.wav",
+        "19/word_clips_4/tgt_doves_3.wav",
+        "19/word_clips_4/tgt_and_4.wav",
+        "19/word_clips_4/tgt_what_5.wav",
+        "19/word_clips_4/tgt_our_6.wav",
+        "19/word_clips_4/tgt_doves_7.wav"
+    ],
+    "cf_word_clips": [
+        "19/word_clips_4/cf_and_0.wav",
+        "19/word_clips_4/cf_water_1.wav",
+        "19/word_clips_4/cf_dogs_2.wav",
+        "19/word_clips_4/cf_water_3.wav",
+        "19/word_clips_4/cf_dogs_4.wav"
+    ],
+    "tgt_pause_word_clips": [
+        "19/word_clips_4/tgt_consecutive_and_what_0.wav",
+        "19/word_clips_4/tgt_consecutive_what_or_1.wav",
+        "19/word_clips_4/tgt_consecutive_or_doves_2.wav",
+        "19/word_clips_4/tgt_consecutive_doves_and_3.wav",
+        "19/word_clips_4/tgt_consecutive_and_what_4.wav",
+        "19/word_clips_4/tgt_consecutive_what_our_5.wav",
+        "19/word_clips_4/tgt_consecutive_our_doves_6.wav"
+    ],
+    "cf_pause_word_clips": [
+        "19/word_clips_4/cf_consecutive_and_water_0.wav",
+        "19/word_clips_4/cf_consecutive_water_dogs_1.wav",
+        "19/word_clips_4/cf_consecutive_dogs_water_2.wav",
+        "19/word_clips_4/cf_consecutive_water_dogs_3.wav"
+    ],
+    "target_audio_path": "19/word_clips_4/tgt_4.wav",
+    "counterfactual_audio_path": "19/word_clips_4/cf_4.wav"
+}

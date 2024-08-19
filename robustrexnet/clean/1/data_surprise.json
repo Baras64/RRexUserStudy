@@ -1,21 +1,25 @@
 {
-    "text": "How i hate this foul pool",
+    "text": "And what are doves and what are doves",
     "loudness": {
         "left": [
             "lightgray",
             "lightgray",
+            "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
-            "lightgray"
+            "lightgray",
+            "rgb(69, 170, 227)"
         ],
         "right": [
             "lightgray",
             "lightgray",
+            "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
-            "lightgray"
+            "lightgray",
+            "rgb(69, 170, 227)"
         ],
         "rlt": "Lower"
     },
@@ -23,18 +27,22 @@
         "left": [
             "lightgray",
             "lightgray",
+            "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
-            "lightgray"
+            "lightgray",
+            "rgb(69, 170, 227)"
         ],
         "right": [
             "lightgray",
             "lightgray",
+            "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
-            "lightgray"
+            "lightgray",
+            "rgb(69, 170, 227)"
         ],
         "rlt": "Lower"
     },
@@ -42,90 +50,108 @@
         "left": [
             "lightgray",
             "lightgray",
+            "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
-            "lightgray"
+            "lightgray",
+            "rgb(69, 170, 227)"
         ],
         "right": [
             "lightgray",
             "lightgray",
+            "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
-            "lightgray"
+            "lightgray",
+            "rgb(69, 170, 227)"
         ],
         "rlt": "Similar"
     },
     "speed": {
         "left": [
-            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
             "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
             "lightgray"
         ],
         "right": [
-            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
             "lightgray",
             "lightgray",
             "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
             "lightgray"
         ],
-        "rlt": "Higher"
+        "rlt": "Shorter"
     },
     "pauses": {
         "left": [
             "lightgray",
             "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
             "lightgray",
-            "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
             "white"
         ],
         "right": [
             "lightgray",
             "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
             "lightgray",
-            "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
             "white"
         ],
-        "rlt": "Higher"
+        "rlt": "Lower"
     },
-    "target_emotion": "Angry",
+    "target_emotion": "Neutral",
     "counterfactual_emotion": "Surprise",
     "tgt_word_clips": [
-        "1/word_clips_4/tgt_how_0.wav",
-        "1/word_clips_4/tgt_i_1.wav",
-        "1/word_clips_4/tgt_hate_2.wav",
-        "1/word_clips_4/tgt_this_3.wav",
-        "1/word_clips_4/tgt_vow_4.wav",
-        "1/word_clips_4/tgt_pool_5.wav"
+        "1/word_clips_4/tgt_and_0.wav",
+        "1/word_clips_4/tgt_what_1.wav",
+        "1/word_clips_4/tgt_our_2.wav",
+        "1/word_clips_4/tgt_doves_3.wav",
+        "1/word_clips_4/tgt_and_4.wav",
+        "1/word_clips_4/tgt_what_5.wav",
+        "1/word_clips_4/tgt_our_6.wav",
+        "1/word_clips_4/tgt_doves_7.wav"
     ],
     "cf_word_clips": [
-        "1/word_clips_4/cf_how_0.wav",
-        "1/word_clips_4/cf_i_1.wav",
-        "1/word_clips_4/cf_hate_2.wav",
-        "1/word_clips_4/cf_this_3.wav",
-        "1/word_clips_4/cf_foul_4.wav",
-        "1/word_clips_4/cf_pool_5.wav"
+        "1/word_clips_4/cf_and_0.wav",
+        "1/word_clips_4/cf_what_1.wav",
+        "1/word_clips_4/cf_does_2.wav",
+        "1/word_clips_4/cf_and_3.wav",
+        "1/word_clips_4/cf_what_4.wav",
+        "1/word_clips_4/cf_her_5.wav",
+        "1/word_clips_4/cf_doves_6.wav"
     ],
     "tgt_pause_word_clips": [
-        "1/word_clips_4/tgt_consecutive_how_i_0.wav",
-        "1/word_clips_4/tgt_consecutive_i_hate_1.wav",
-        "1/word_clips_4/tgt_consecutive_hate_this_2.wav",
-        "1/word_clips_4/tgt_consecutive_this_vow_3.wav",
-        "1/word_clips_4/tgt_consecutive_vow_pool_4.wav"
+        "1/word_clips_4/tgt_consecutive_and_what_0.wav",
+        "1/word_clips_4/tgt_consecutive_what_our_1.wav",
+        "1/word_clips_4/tgt_consecutive_our_doves_2.wav",
+        "1/word_clips_4/tgt_consecutive_doves_and_3.wav",
+        "1/word_clips_4/tgt_consecutive_and_what_4.wav",
+        "1/word_clips_4/tgt_consecutive_what_our_5.wav",
+        "1/word_clips_4/tgt_consecutive_our_doves_6.wav"
     ],
     "cf_pause_word_clips": [
-        "1/word_clips_4/cf_consecutive_how_i_0.wav",
-        "1/word_clips_4/cf_consecutive_i_hate_1.wav",
-        "1/word_clips_4/cf_consecutive_hate_this_2.wav",
-        "1/word_clips_4/cf_consecutive_this_foul_3.wav",
-        "1/word_clips_4/cf_consecutive_foul_pool_4.wav"
+        "1/word_clips_4/cf_consecutive_and_what_0.wav",
+        "1/word_clips_4/cf_consecutive_what_does_1.wav",
+        "1/word_clips_4/cf_consecutive_does_and_2.wav",
+        "1/word_clips_4/cf_consecutive_and_what_3.wav",
+        "1/word_clips_4/cf_consecutive_what_her_4.wav",
+        "1/word_clips_4/cf_consecutive_her_doves_5.wav"
     ],
     "target_audio_path": "1/word_clips_4/tgt_4.wav",
     "counterfactual_audio_path": "1/word_clips_4/cf_4.wav"

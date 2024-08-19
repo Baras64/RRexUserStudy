@@ -434,7 +434,7 @@ function loadTable(filename, isPlay = false) {
                     let cell = row.insertCell();
 
                     if (index == 4) {
-                        capsule = createTriangle(colorLeft, colorRight, `${baseDir}${data.tgt_word_clips[idx]}`, `${baseDir}${data.cf_word_clips[idx]}`);
+                        capsule = createTriangle(colorLeft, colorRight, `${baseDir}${data.tgt_pause_word_clips[idx]}`, `${baseDir}${data.cf_pause_word_clips[idx]}`);
                     } else {
                         capsule = createCapsule(colorLeft, colorRight, `${baseDir}${data.tgt_word_clips[idx]}`, `${baseDir}${data.cf_word_clips[idx]}`);
                     }
