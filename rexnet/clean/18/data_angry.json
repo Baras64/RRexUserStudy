@@ -9,8 +9,8 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "lightgray",
-            "rgb(69, 170, 227)"
+            "rgb(69, 170, 227)",
+            "lightgray"
         ],
         "right": [
             "rgb(69, 170, 227)",
@@ -34,8 +34,8 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "lightgray",
-            "rgb(69, 170, 227)"
+            "rgb(69, 170, 227)",
+            "lightgray"
         ],
         "right": [
             "rgb(69, 170, 227)",
@@ -59,8 +59,8 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "lightgray",
-            "rgb(69, 170, 227)"
+            "rgb(69, 170, 227)",
+            "lightgray"
         ],
         "right": [
             "rgb(69, 170, 227)",
@@ -84,8 +84,8 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "lightgray",
-            "rgb(69, 170, 227)"
+            "rgb(69, 170, 227)",
+            "lightgray"
         ],
         "right": [
             "rgb(69, 170, 227)",
@@ -109,7 +109,7 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "lightgray",
+            "rgb(69, 170, 227)",
             "white"
         ],
         "right": [

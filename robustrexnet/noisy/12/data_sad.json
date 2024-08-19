@@ -1,1 +1,132 @@
-{"text": "She may mind ye of her", "loudness": {"left": ["lightgray", "rgb(69, 170, 227)", "lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray"], "right": ["lightgray", "rgb(69, 170, 227)", "lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray"], "rlt": "Higher"}, "average_pitch": {"left": ["rgb(69, 170, 227)", "lightgray", "lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray"], "right": ["rgb(69, 170, 227)", "lightgray", "lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray"], "rlt": "Similar"}, "pitch_range": {"left": ["lightgray", "rgb(69, 170, 227)", "lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray"], "right": ["lightgray", "rgb(69, 170, 227)", "lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray"], "rlt": "Higher"}, "speed": {"left": ["lightgray", "lightgray", "rgb(69, 170, 227)", "rgb(69, 170, 227)", "rgb(69, 170, 227)", "lightgray"], "right": ["lightgray", "lightgray", "rgb(69, 170, 227)", "rgb(69, 170, 227)", "rgb(69, 170, 227)", "lightgray"], "rlt": "Shorter"}, "pauses": {"left": ["lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray", "rgb(69, 170, 227)", "white"], "right": ["lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray", "rgb(69, 170, 227)", "white"], "rlt": "Similar"}, "target_emotion": "Neutral", "counterfactual_emotion": "Sad", "tgt_word_clips": ["12/word_clips_3/tgt_she_0.wav", "12/word_clips_3/tgt_may_1.wav", "12/word_clips_3/tgt_mind_2.wav", "12/word_clips_3/tgt_he_3.wav", "12/word_clips_3/tgt_of_4.wav", "12/word_clips_3/tgt_her_5.wav"], "cf_word_clips": ["12/word_clips_3/cf_she_0.wav", "12/word_clips_3/cf_may_1.wav", "12/word_clips_3/cf_mind_2.wav", "12/word_clips_3/cf_you_3.wav", "12/word_clips_3/cf_of_4.wav", "12/word_clips_3/cf_her_5.wav"], "tgt_pause_word_clips": ["12/word_clips_3/tgt_consecutive_she_may_0.wav", "12/word_clips_3/tgt_consecutive_may_mind_1.wav", "12/word_clips_3/tgt_consecutive_mind_he_2.wav", "12/word_clips_3/tgt_consecutive_he_of_3.wav", "12/word_clips_3/tgt_consecutive_of_her_4.wav"], "cf_pause_word_clips": ["12/word_clips_3/cf_consecutive_she_may_0.wav", "12/word_clips_3/cf_consecutive_may_mind_1.wav", "12/word_clips_3/cf_consecutive_mind_you_2.wav", "12/word_clips_3/cf_consecutive_you_of_3.wav", "12/word_clips_3/cf_consecutive_of_her_4.wav"], "target_audio_path": "12/word_clips_3/tgt_3.wav", "counterfactual_audio_path": "12/word_clips_3/cf_3.wav"}
+{
+    "text": "She may mind ye of her",
+    "loudness": {
+        "left": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Higher"
+    },
+    "average_pitch": {
+        "left": [
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Similar"
+    },
+    "pitch_range": {
+        "left": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Higher"
+    },
+    "speed": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "rlt": "Shorter"
+    },
+    "pauses": {
+        "left": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "white"
+        ],
+        "right": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "white"
+        ],
+        "rlt": "Lower"
+    },
+    "target_emotion": "Neutral",
+    "counterfactual_emotion": "Sad",
+    "tgt_word_clips": [
+        "12/word_clips_3/tgt_she_0.wav",
+        "12/word_clips_3/tgt_may_1.wav",
+        "12/word_clips_3/tgt_mind_2.wav",
+        "12/word_clips_3/tgt_he_3.wav",
+        "12/word_clips_3/tgt_of_4.wav",
+        "12/word_clips_3/tgt_her_5.wav"
+    ],
+    "cf_word_clips": [
+        "12/word_clips_3/cf_she_0.wav",
+        "12/word_clips_3/cf_may_1.wav",
+        "12/word_clips_3/cf_mind_2.wav",
+        "12/word_clips_3/cf_you_3.wav",
+        "12/word_clips_3/cf_of_4.wav",
+        "12/word_clips_3/cf_her_5.wav"
+    ],
+    "tgt_pause_word_clips": [
+        "12/word_clips_3/tgt_consecutive_she_may_0.wav",
+        "12/word_clips_3/tgt_consecutive_may_mind_1.wav",
+        "12/word_clips_3/tgt_consecutive_mind_he_2.wav",
+        "12/word_clips_3/tgt_consecutive_he_of_3.wav",
+        "12/word_clips_3/tgt_consecutive_of_her_4.wav"
+    ],
+    "cf_pause_word_clips": [
+        "12/word_clips_3/cf_consecutive_she_may_0.wav",
+        "12/word_clips_3/cf_consecutive_may_mind_1.wav",
+        "12/word_clips_3/cf_consecutive_mind_you_2.wav",
+        "12/word_clips_3/cf_consecutive_you_of_3.wav",
+        "12/word_clips_3/cf_consecutive_of_her_4.wav"
+    ],
+    "target_audio_path": "12/word_clips_3/tgt_3.wav",
+    "counterfactual_audio_path": "12/word_clips_3/cf_3.wav"
+}

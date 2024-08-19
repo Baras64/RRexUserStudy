@@ -6,7 +6,8 @@
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "rgb(69, 170, 227)",
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -23,7 +24,8 @@
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "rgb(69, 170, 227)",
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -40,7 +42,8 @@
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "rgb(69, 170, 227)",
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -57,7 +60,8 @@
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "rgb(69, 170, 227)",
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -74,6 +78,7 @@
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
+            "rgb(69, 170, 227)",
             "white"
         ],
         "right": [
@@ -90,9 +95,10 @@
     "tgt_word_clips": [
         "11/word_clips_1/tgt_she_0.wav",
         "11/word_clips_1/tgt_may_1.wav",
-        "11/word_clips_1/tgt_monday_2.wav",
-        "11/word_clips_1/tgt_of_3.wav",
-        "11/word_clips_1/tgt_her_4.wav"
+        "11/word_clips_1/tgt_mind_2.wav",
+        "11/word_clips_1/tgt_ye_3.wav",
+        "11/word_clips_1/tgt_of_4.wav",
+        "11/word_clips_1/tgt_her_5.wav"
     ],
     "cf_word_clips": [
         "11/word_clips_1/cf_she_0.wav",
@@ -105,7 +111,8 @@
     "tgt_pause_word_clips": [
         "11/word_clips_1/tgt_consecutive_she_may_0.wav",
         "11/word_clips_1/tgt_consecutive_may_monday_1.wav",
-        "11/word_clips_1/tgt_consecutive_monday_of_2.wav",
+        "11/word_clips_1/tgt_consecutive_mind_ye_1.wav",
+        "11/word_clips_1/tgt_consecutive_ye_of_2.wav",
         "11/word_clips_1/tgt_consecutive_of_her_3.wav"
     ],
     "cf_pause_word_clips": [

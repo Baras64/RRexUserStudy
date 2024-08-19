@@ -9,7 +9,7 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -21,7 +21,7 @@
             "lightgray",
             "rgb(69, 170, 227)"
         ],
-        "rlt": "Lower"
+        "rlt": "Similar"
     },
     "average_pitch": {
         "left": [
@@ -32,7 +32,7 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -55,7 +55,7 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -78,7 +78,7 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -90,7 +90,7 @@
             "lightgray",
             "rgb(69, 170, 227)"
         ],
-        "rlt": "Longer"
+        "rlt": "Similar"
     },
     "pauses": {
         "left": [
@@ -113,7 +113,7 @@
             "lightgray",
             "white"
         ],
-        "rlt": "Higher"
+        "rlt": "Similar"
     },
     "target_emotion": "Neutral",
     "counterfactual_emotion": "Surprise",
@@ -130,6 +130,7 @@
     "cf_word_clips": [
         "1/word_clips_4/cf_and_0.wav",
         "1/word_clips_4/cf_what_1.wav",
+        "1/word_clips_4/cf_are_2.wav",
         "1/word_clips_4/cf_does_2.wav",
         "1/word_clips_4/cf_and_3.wav",
         "1/word_clips_4/cf_what_4.wav",
@@ -147,7 +148,8 @@
     ],
     "cf_pause_word_clips": [
         "1/word_clips_4/cf_consecutive_and_what_0.wav",
-        "1/word_clips_4/cf_consecutive_what_does_1.wav",
+        "1/word_clips_4/cf_consecutive_what_are_1.wav",
+        "1/word_clips_4/cf_consecutive_are_does_1.wav",
         "1/word_clips_4/cf_consecutive_does_and_2.wav",
         "1/word_clips_4/cf_consecutive_and_what_3.wav",
         "1/word_clips_4/cf_consecutive_what_her_4.wav",

@@ -3,10 +3,10 @@
     "loudness": {
         "left": [
             "lightgray",
-            "lightgray",
+            "rgb(69, 170, 227)",
             "lightgray",
             "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -20,10 +20,10 @@
     "average_pitch": {
         "left": [
             "lightgray",
-            "lightgray",
+            "rgb(69, 170, 227)",
             "lightgray",
             "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -37,10 +37,10 @@
     "pitch_range": {
         "left": [
             "lightgray",
-            "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "rgb(69, 170, 227)",
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -49,7 +49,7 @@
             "lightgray",
             "rgb(69, 170, 227)"
         ],
-        "rlt": "Lower"
+        "rlt": "Higher"
     },
     "speed": {
         "left": [

@@ -9,7 +9,7 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -19,7 +19,7 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "rlt": "Higher"
     },
@@ -32,7 +32,7 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -42,7 +42,7 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "rlt": "Higher"
     },
@@ -55,7 +55,7 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -65,9 +65,9 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
-        "rlt": "Higher"
+        "rlt": "Similar"
     },
     "speed": {
         "left": [
@@ -78,7 +78,7 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "right": [
             "lightgray",
@@ -88,7 +88,7 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)"
+            "lightgray"
         ],
         "rlt": "Shorter"
     },

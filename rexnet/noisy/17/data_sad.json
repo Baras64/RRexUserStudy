@@ -1,1 +1,132 @@
-{"text": "This used to be jerry's occupation", "loudness": {"left": ["lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)", "rgb(69, 170, 227)"], "right": ["lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)", "rgb(69, 170, 227)"], "rlt": "Higher"}, "average_pitch": {"left": ["lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)", "rgb(69, 170, 227)"], "right": ["lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)", "rgb(69, 170, 227)"], "rlt": "Higher"}, "pitch_range": {"left": ["lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)", "rgb(69, 170, 227)"], "right": ["lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)", "rgb(69, 170, 227)"], "rlt": "Similar"}, "speed": {"left": ["lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)", "rgb(69, 170, 227)"], "right": ["lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)", "rgb(69, 170, 227)"], "rlt": "Shorter"}, "pauses": {"left": ["lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)", "white"], "right": ["lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)", "white"], "rlt": "Lower"}, "target_emotion": "Surprise", "counterfactual_emotion": "Sad", "tgt_word_clips": ["17/word_clips_3/tgt_this_0.wav", "17/word_clips_3/tgt_used_1.wav", "17/word_clips_3/tgt_to_2.wav", "17/word_clips_3/tgt_be_3.wav", "17/word_clips_3/tgt_cherries_4.wav", "17/word_clips_3/tgt_occupation_5.wav"], "cf_word_clips": ["17/word_clips_3/cf_this_0.wav", "17/word_clips_3/cf_used_1.wav", "17/word_clips_3/cf_to_2.wav", "17/word_clips_3/cf_be_3.wav", "17/word_clips_3/cf_jerry's_4.wav", "17/word_clips_3/cf_occupation_5.wav"], "tgt_pause_word_clips": ["17/word_clips_3/tgt_consecutive_this_used_0.wav", "17/word_clips_3/tgt_consecutive_used_to_1.wav", "17/word_clips_3/tgt_consecutive_to_be_2.wav", "17/word_clips_3/tgt_consecutive_be_cherries_3.wav", "17/word_clips_3/tgt_consecutive_cherries_occupation_4.wav"], "cf_pause_word_clips": ["17/word_clips_3/cf_consecutive_this_used_0.wav", "17/word_clips_3/cf_consecutive_used_to_1.wav", "17/word_clips_3/cf_consecutive_to_be_2.wav", "17/word_clips_3/cf_consecutive_be_jerry's_3.wav", "17/word_clips_3/cf_consecutive_jerry's_occupation_4.wav"], "target_audio_path": "17/word_clips_3/tgt_3.wav", "counterfactual_audio_path": "17/word_clips_3/cf_3.wav"}
+{
+    "text": "This used to be jerry's occupation",
+    "loudness": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "rlt": "Higher"
+    },
+    "average_pitch": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "rlt": "Similar"
+    },
+    "pitch_range": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "rlt": "Similar"
+    },
+    "speed": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "rlt": "Similar"
+    },
+    "pauses": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "white"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "white"
+        ],
+        "rlt": "Higher"
+    },
+    "target_emotion": "Surprise",
+    "counterfactual_emotion": "Sad",
+    "tgt_word_clips": [
+        "17/word_clips_3/tgt_this_0.wav",
+        "17/word_clips_3/tgt_used_1.wav",
+        "17/word_clips_3/tgt_to_2.wav",
+        "17/word_clips_3/tgt_be_3.wav",
+        "17/word_clips_3/tgt_cherries_4.wav",
+        "17/word_clips_3/tgt_occupation_5.wav"
+    ],
+    "cf_word_clips": [
+        "17/word_clips_3/cf_this_0.wav",
+        "17/word_clips_3/cf_used_1.wav",
+        "17/word_clips_3/cf_to_2.wav",
+        "17/word_clips_3/cf_be_3.wav",
+        "17/word_clips_3/cf_jerry's_4.wav",
+        "17/word_clips_3/cf_occupation_5.wav"
+    ],
+    "tgt_pause_word_clips": [
+        "17/word_clips_3/tgt_consecutive_this_used_0.wav",
+        "17/word_clips_3/tgt_consecutive_used_to_1.wav",
+        "17/word_clips_3/tgt_consecutive_to_be_2.wav",
+        "17/word_clips_3/tgt_consecutive_be_cherries_3.wav",
+        "17/word_clips_3/tgt_consecutive_cherries_occupation_4.wav"
+    ],
+    "cf_pause_word_clips": [
+        "17/word_clips_3/cf_consecutive_this_used_0.wav",
+        "17/word_clips_3/cf_consecutive_used_to_1.wav",
+        "17/word_clips_3/cf_consecutive_to_be_2.wav",
+        "17/word_clips_3/cf_consecutive_be_jerry's_3.wav",
+        "17/word_clips_3/cf_consecutive_jerry's_occupation_4.wav"
+    ],
+    "target_audio_path": "17/word_clips_3/tgt_3.wav",
+    "counterfactual_audio_path": "17/word_clips_3/cf_3.wav"
+}

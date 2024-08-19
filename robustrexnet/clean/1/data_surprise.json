@@ -130,6 +130,7 @@
     "cf_word_clips": [
         "1/word_clips_4/cf_and_0.wav",
         "1/word_clips_4/cf_what_1.wav",
+        "1/word_clips_4/cf_are_1.wav",
         "1/word_clips_4/cf_does_2.wav",
         "1/word_clips_4/cf_and_3.wav",
         "1/word_clips_4/cf_what_4.wav",
@@ -147,7 +148,8 @@
     ],
     "cf_pause_word_clips": [
         "1/word_clips_4/cf_consecutive_and_what_0.wav",
-        "1/word_clips_4/cf_consecutive_what_does_1.wav",
+        "1/word_clips_4/cf_consecutive_what_are_1.wav",
+        "1/word_clips_4/cf_consecutive_are_doves_1.wav",
         "1/word_clips_4/cf_consecutive_does_and_2.wav",
         "1/word_clips_4/cf_consecutive_and_what_3.wav",
         "1/word_clips_4/cf_consecutive_what_her_4.wav",

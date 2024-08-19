@@ -73,12 +73,12 @@
         "left": [
             "lightgray",
             "lightgray",
-            "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
-            "rgb(69, 170, 227)",
-            "rgb(69, 170, 227)",
-            "lightgray"
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
         ],
         "right": [
             "lightgray",

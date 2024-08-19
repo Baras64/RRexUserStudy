@@ -83,7 +83,7 @@
             "rgb(69, 170, 227)",
             "white"
         ],
-        "rlt": "Lower"
+        "rlt": "Similar"
     },
     "target_emotion": "Neutral",
     "counterfactual_emotion": "Happy",

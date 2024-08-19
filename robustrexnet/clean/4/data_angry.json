@@ -7,9 +7,9 @@
             "lightgray",
             "lightgray",
             "lightgray",
-            "rgb(69, 170, 227)",
             "lightgray",
-            "lightgray"
+            "lightgray",
+            "rgb(69, 170, 227)"
         ],
         "right": [
             "lightgray",
@@ -21,7 +21,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Higher"
+        "rlt": "Similar"
     },
     "average_pitch": {
         "left": [
@@ -71,14 +71,14 @@
     },
     "speed": {
         "left": [
-            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
             "rgb(69, 170, 227)",
             "lightgray",
-            "rgb(69, 170, 227)",
-            "lightgray"
+            "rgb(69, 170, 227)"
         ],
         "right": [
             "rgb(69, 170, 227)",
