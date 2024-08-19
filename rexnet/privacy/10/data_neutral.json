@@ -1,1 +1,160 @@
-{"text": "Story twenty nine a boy and a monkey", "loudness": {"left": ["lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)"], "right": ["lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)"], "rlt": "Lower"}, "average_pitch": {"left": ["lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)"], "right": ["lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)"], "rlt": "Lower"}, "pitch_range": {"left": ["lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)"], "right": ["lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)"], "rlt": "Lower"}, "speed": {"left": ["lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)"], "right": ["lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray", "lightgray", "lightgray", "lightgray", "rgb(69, 170, 227)"], "rlt": "Shorter"}, "pauses": {"left": ["lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray", "lightgray", "lightgray", "lightgray", "white"], "right": ["lightgray", "rgb(69, 170, 227)", "lightgray", "lightgray", "lightgray", "lightgray", "lightgray", "white"], "rlt": "Lower"}, "target_emotion": "Neutral", "counterfactual_emotion": "Neutral", "tgt_word_clips": ["10/word_clips_0/tgt_story_0.wav", "10/word_clips_0/tgt_twenty_1.wav", "10/word_clips_0/tgt_nine_2.wav", "10/word_clips_0/tgt_a_3.wav", "10/word_clips_0/tgt_boy_4.wav", "10/word_clips_0/tgt_and_5.wav", "10/word_clips_0/tgt_a_6.wav", "10/word_clips_0/tgt_monkey_7.wav"], "cf_word_clips": ["10/word_clips_0/cf_story_0.wav", "10/word_clips_0/cf_twenty_1.wav", "10/word_clips_0/cf_nine_2.wav", "10/word_clips_0/cf_a_3.wav", "10/word_clips_0/cf_boy_4.wav", "10/word_clips_0/cf_and_5.wav", "10/word_clips_0/cf_a_6.wav", "10/word_clips_0/cf_monkey_7.wav"], "tgt_pause_word_clips": ["10/word_clips_0/tgt_consecutive_story_twenty_0.wav", "10/word_clips_0/tgt_consecutive_twenty_nine_1.wav", "10/word_clips_0/tgt_consecutive_nine_a_2.wav", "10/word_clips_0/tgt_consecutive_a_boy_3.wav", "10/word_clips_0/tgt_consecutive_boy_and_4.wav", "10/word_clips_0/tgt_consecutive_and_a_5.wav", "10/word_clips_0/tgt_consecutive_a_monkey_6.wav"], "cf_pause_word_clips": ["10/word_clips_0/cf_consecutive_story_twenty_0.wav", "10/word_clips_0/cf_consecutive_twenty_nine_1.wav", "10/word_clips_0/cf_consecutive_nine_a_2.wav", "10/word_clips_0/cf_consecutive_a_boy_3.wav", "10/word_clips_0/cf_consecutive_boy_and_4.wav", "10/word_clips_0/cf_consecutive_and_a_5.wav", "10/word_clips_0/cf_consecutive_a_monkey_6.wav"], "target_audio_path": "10/word_clips_0/tgt_0.wav", "counterfactual_audio_path": "10/word_clips_0/cf_0.wav"}
+{
+    "text": "Story twenty nine a boy and a monkey",
+    "loudness": {
+        "left": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Lower"
+    },
+    "average_pitch": {
+        "left": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Lower"
+    },
+    "pitch_range": {
+        "left": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Lower"
+    },
+    "speed": {
+        "left": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Shorter"
+    },
+    "pauses": {
+        "left": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "white"
+        ],
+        "right": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "white"
+        ],
+        "rlt": "Lower"
+    },
+    "target_emotion": "Neutral",
+    "counterfactual_emotion": "Neutral",
+    "tgt_word_clips": [
+        "10/word_clips_0/tgt_story_0.wav",
+        "10/word_clips_0/tgt_twenty_1.wav",
+        "10/word_clips_0/tgt_nine_2.wav",
+        "10/word_clips_0/tgt_a_3.wav",
+        "10/word_clips_0/tgt_boy_4.wav",
+        "10/word_clips_0/tgt_and_5.wav",
+        "10/word_clips_0/tgt_a_6.wav",
+        "10/word_clips_0/tgt_monkey_7.wav"
+    ],
+    "cf_word_clips": [
+        "10/word_clips_0/cf_story_0.wav",
+        "10/word_clips_0/cf_twenty_1.wav",
+        "10/word_clips_0/cf_nine_2.wav",
+        "10/word_clips_0/cf_a_3.wav",
+        "10/word_clips_0/cf_boy_4.wav",
+        "10/word_clips_0/cf_and_5.wav",
+        "10/word_clips_0/cf_a_6.wav",
+        "10/word_clips_0/cf_monkey_7.wav"
+    ],
+    "tgt_pause_word_clips": [
+        "10/word_clips_0/tgt_consecutive_story_twenty_0.wav",
+        "10/word_clips_0/tgt_consecutive_twenty_nine_1.wav",
+        "10/word_clips_0/tgt_consecutive_nine_a_2.wav",
+        "10/word_clips_0/tgt_consecutive_a_boy_3.wav",
+        "10/word_clips_0/tgt_consecutive_boy_and_4.wav",
+        "10/word_clips_0/tgt_consecutive_and_a_5.wav",
+        "10/word_clips_0/tgt_consecutive_a_monkey_6.wav"
+    ],
+    "cf_pause_word_clips": [
+        "10/word_clips_0/cf_consecutive_story_twenty_0.wav",
+        "10/word_clips_0/cf_consecutive_twenty_nine_1.wav",
+        "10/word_clips_0/cf_consecutive_nine_a_2.wav",
+        "10/word_clips_0/cf_consecutive_a_boy_3.wav",
+        "10/word_clips_0/cf_consecutive_boy_and_4.wav",
+        "10/word_clips_0/cf_consecutive_and_a_5.wav",
+        "10/word_clips_0/cf_consecutive_a_monkey_6.wav"
+    ],
+    "target_audio_path": "10/word_clips_0/tgt_0.wav",
+    "counterfactual_audio_path": "10/word_clips_0/cf_0.wav"
+}
