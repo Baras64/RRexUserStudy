@@ -466,7 +466,7 @@ function loadTable(filename, isPlay = false) {
 var newEmotions = [];
 var targetEmo = ""
 
-async function checkFile(emotions) {
+/* async function checkFile(emotions) {
     let response;
     for (let i = 0; i < emotions.length; i++) {
 
@@ -479,7 +479,7 @@ async function checkFile(emotions) {
             targetEmo = emotions[i]
         }
     }
-}
+} */
 
 // var baseDir = `example${new URLSearchParams(window.location.search).get("example")}`;
 var showAns = new URLSearchParams(window.location.search).get("showAns");
@@ -488,7 +488,7 @@ var cf = new URLSearchParams(window.location.search).get("cf");
 var baseDir = `${new URLSearchParams(window.location.search).get("xaitype")}/${new URLSearchParams(window.location.search).get("audiotype")}/`;
 var id = new URLSearchParams(window.location.search).get("id");
 
-checkFile(emotions).then(() => {
+/* checkFile(emotions).then(() => {
 
     // counterfactualSelect.innerHTML = "";
     // newEmotions.forEach(emotion => {
@@ -507,7 +507,7 @@ checkFile(emotions).then(() => {
 
     // loadTable(`./${baseDir}/data_${emotionFile}.json`);
     loadTable(`${baseDir}${id}/data_${cf.toLowerCase()}.json`);
-});
+}); */
 // loadTable("");
 
 
