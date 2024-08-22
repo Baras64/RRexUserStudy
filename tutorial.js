@@ -11,7 +11,7 @@ tutorial1 = document.getElementById('tutorial-1')
 // tutorial2 = document.getElementById('tutorial-2')
 // tutorial3 = document.getElementById('tutorial-3')
 
-console.log(tutorialId)
+// console.log(tutorialId)
 
 if(tutorialId === '1'){
     quesTitle.style.display = 'none';
