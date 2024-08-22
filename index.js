@@ -472,10 +472,10 @@ async function checkFile(emotions) {
 
         response = await fetch(`${baseDir}${id}/data_${emotions[i]}.json`);
         if (response.ok) {
-            console.log("File exists")
+            // console.log("File exists")
             newEmotions.push(emotions[i])
         } else {
-            console.log("File does not exist")
+            // console.log("File does not exist")
             targetEmo = emotions[i]
         }
     }
@@ -498,7 +498,7 @@ checkFile(emotions).then(() => {
     //     counterfactualSelect.appendChild(option)
     // });
 
-    console.log(baseDir, id, cf)
+    // console.log(baseDir, id, cf)
     elem = document.getElementById('counterfactual-emotion-text')
     // emotionFile = newEmotions[Math.floor(Math.random() * newEmotions.length)];
     // elem.innerText = emotionFile.capitalize();
