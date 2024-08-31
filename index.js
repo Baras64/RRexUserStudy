@@ -329,7 +329,7 @@ function loadTable(filename, isPlay = false) {
             cell = row.insertCell();
             cell.innerHTML = "This voice has:";
 
-            for (let index = 0; index < 5; index++) {
+            for (let index = 0; index < numCues; index++) {
                 cueData = data[idx2cueidx[index]]
                 let row = mapTable.insertRow();
                 row.value = index;
@@ -501,6 +501,7 @@ var cf = new URLSearchParams(window.location.search).get("cf");
 var baseDir = `${new URLSearchParams(window.location.search).get("xaitype")}/${new URLSearchParams(window.location.search).get("audiotype")}/`;
 var id = new URLSearchParams(window.location.search).get("id");
 var sessionColor = sessionColor2hex[new URLSearchParams(window.location.search).get("color")]
+var numCues = Number(new URLSearchParams(window.location.search).get("numcues"));
 
 document.getElementById('left-shape-ui').style.backgroundColor = sessionColor;
 document.getElementById('right-shape-ui').style.backgroundColor = sessionColor;
