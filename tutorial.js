@@ -33,7 +33,7 @@ if(tutorialId === '1'){
     legend.style.display = 'none';
     containerInfo.style.display = 'none';
     temp = setInterval(() => {
-        console.log("hey")
+        // console.log("hey")
         if(table.rows.length > 0){
             rows = table.rows;
             rows[0].style.display = "none";
