@@ -1,5 +1,5 @@
 var tutorialId = new URLSearchParams(window.location.search).get('tutorial');
-
+console.log('tutorialId', tutorialId);
 table = document.getElementById('map-table');
 
 
