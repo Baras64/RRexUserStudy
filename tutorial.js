@@ -47,7 +47,7 @@ if(tutorialId === '1'){
             clearInterval(temp);
         }
     }, 100);
-    rows[0].style.display = "none";
+    table.rows[0].style.display = "none";
 } else if(tutorialId === '3') {
 
     // tutorial1.style.display = 'none';
