@@ -56,6 +56,11 @@ const rlt2color = {
     "Faster": "#3498DB",
 }
 
+const sessionColor2hex = {
+    "blue": "rgb(69, 170, 227)",
+    "purple": "#9659d4"
+}
+
 // counterfactualSelect.addEventListener('change', function(){
 //     console.log("Counterfactual emotion changed to: ", counterfactualSelect.value);
 // });
@@ -358,7 +363,8 @@ function loadTable(filename, isPlay = false) {
                 if (cueStr == "time") {
                     cueStr = "speaking time"
                 }
-                cell.innerHTML = `<b style="color:rgb(69, 170, 227)">${cueData.rlt}</b> ${cueStr}`;
+                // cell.innerHTML = `<b style="color:rgb(69, 170, 227)">${cueData.rlt}</b> ${cueStr}`;
+                cell.innerHTML = `<b style="color:${sessionColor}">${cueData.rlt}</b> ${cueStr}`;
 
                 cell.classList.add("tooltip");
 
@@ -431,6 +437,13 @@ function loadTable(filename, isPlay = false) {
                     // let colorRight = cueData["right"][idx];
                     //Intentionally kept it to left
                     let colorRight = cueData["left"][idx];
+
+                    if(colorLeft !== "lightgray"){
+                        colorLeft = sessionColor;
+                    }
+                    if(colorRight !== "lightgray"){
+                        colorRight = sessionColor;
+                    }
                     let cell = row.insertCell();
 
                     if (index == 4) {
@@ -487,6 +500,10 @@ var cf = new URLSearchParams(window.location.search).get("cf");
 
 var baseDir = `${new URLSearchParams(window.location.search).get("xaitype")}/${new URLSearchParams(window.location.search).get("audiotype")}/`;
 var id = new URLSearchParams(window.location.search).get("id");
+var sessionColor = sessionColor2hex[new URLSearchParams(window.location.search).get("color")]
+
+document.getElementById('left-shape-ui').style.backgroundColor = sessionColor;
+document.getElementById('right-shape-ui').style.backgroundColor = sessionColor;
 
 checkFile(emotions).then(() => {
 
