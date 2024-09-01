@@ -1,0 +1,134 @@
+{
+    "text": "The football teams given tea party",
+    "loudness": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Similar"
+    },
+    "average_pitch": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Higher"
+    },
+    "pitch_range": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Lower"
+    },
+    "speed": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Longer"
+    },
+    "pauses": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Higher"
+    },
+    "target_emotion": "Angry",
+    "counterfactual_emotion": "Happy",
+    "tgt_word_clips": [
+        "32/word_clips_2/tgt_the_0.wav",
+        "32/word_clips_2/tgt_football_1.wav",
+        "32/word_clips_2/tgt_teams_2.wav",
+        "32/word_clips_2/tgt_given_3.wav",
+        "32/word_clips_2/tgt_tea_4.wav",
+        "32/word_clips_2/tgt_party_5.wav"
+    ],
+    "cf_word_clips": [
+        "32/word_clips_2/cf_the_0.wav",
+        "32/word_clips_2/cf_football_1.wav",
+        "32/word_clips_2/cf_teams_2.wav",
+        "32/word_clips_2/cf_give_3.wav",
+        "32/word_clips_2/cf_a_4.wav",
+        "32/word_clips_2/cf_tea_5.wav",
+        "32/word_clips_2/cf_party_6.wav"
+    ],
+    "tgt_pause_word_clips": [
+        "32/word_clips_2/tgt_consecutive_the_football_0.wav",
+        "32/word_clips_2/tgt_consecutive_football_teams_1.wav",
+        "32/word_clips_2/tgt_consecutive_teams_given_2.wav",
+        "32/word_clips_2/tgt_consecutive_given_tea_3.wav",
+        "32/word_clips_2/tgt_consecutive_tea_party_4.wav"
+    ],
+    "cf_pause_word_clips": [
+        "32/word_clips_2/cf_consecutive_the_football_0.wav",
+        "32/word_clips_2/cf_consecutive_football_teams_1.wav",
+        "32/word_clips_2/cf_consecutive_teams_give_2.wav",
+        "32/word_clips_2/cf_consecutive_give_a_3.wav",
+        "32/word_clips_2/cf_consecutive_a_tea_4.wav",
+        "32/word_clips_2/cf_consecutive_tea_party_5.wav"
+    ],
+    "target_audio_path": "32/word_clips_2/tgt_2.wav",
+    "counterfactual_audio_path": "32/word_clips_2/cf_2.wav"
+}

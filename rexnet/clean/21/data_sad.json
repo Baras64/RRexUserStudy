@@ -1,0 +1,145 @@
+{
+    "text": "Hold up my chin slow and solid",
+    "loudness": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Lower"
+    },
+    "average_pitch": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Lower"
+    },
+    "pitch_range": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Similar"
+    },
+    "speed": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Shorter"
+    },
+    "pauses": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Lower"
+    },
+    "target_emotion": "Neutral",
+    "counterfactual_emotion": "Sad",
+    "tgt_word_clips": [
+        "21/word_clips_3/tgt_hold_0.wav",
+        "21/word_clips_3/tgt_up_1.wav",
+        "21/word_clips_3/tgt_much_2.wav",
+        "21/word_clips_3/tgt_in_3.wav",
+        "21/word_clips_3/tgt_slow_4.wav",
+        "21/word_clips_3/tgt_and_5.wav",
+        "21/word_clips_3/tgt_solid_6.wav"
+    ],
+    "cf_word_clips": [
+        "21/word_clips_3/cf_hold_0.wav",
+        "21/word_clips_3/cf_up_1.wav",
+        "21/word_clips_3/cf_machin_2.wav",
+        "21/word_clips_3/cf_in_2.wav",
+        "21/word_clips_3/cf_slow_3.wav",
+        "21/word_clips_3/cf_and_4.wav",
+        "21/word_clips_3/cf_solid_5.wav"
+    ],
+    "tgt_pause_word_clips": [
+        "21/word_clips_3/tgt_consecutive_hold_up_0.wav",
+        "21/word_clips_3/tgt_consecutive_up_much_1.wav",
+        "21/word_clips_3/tgt_consecutive_much_in_2.wav",
+        "21/word_clips_3/tgt_consecutive_in_slow_3.wav",
+        "21/word_clips_3/tgt_consecutive_slow_and_4.wav",
+        "21/word_clips_3/tgt_consecutive_and_solid_5.wav"
+    ],
+    "cf_pause_word_clips": [
+        "21/word_clips_3/cf_consecutive_hold_up_0.wav",
+        "21/word_clips_3/cf_consecutive_up_machin_1.wav",
+        "21/word_clips_3/cf_consecutive_machin_slow_2.wav",
+        "21/word_clips_3/cf_consecutive_slow_and_3.wav",
+        "21/word_clips_3/cf_consecutive_and_solid_4.wav"
+    ],
+    "target_audio_path": "21/word_clips_3/tgt_3.wav",
+    "counterfactual_audio_path": "21/word_clips_3/cf_3.wav"
+}

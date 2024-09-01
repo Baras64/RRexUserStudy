@@ -1,0 +1,132 @@
+{
+    "text": "Let's make the noise a snake",
+    "loudness": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Lower"
+    },
+    "average_pitch": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Similar"
+    },
+    "pitch_range": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Similar"
+    },
+    "speed": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Similar"
+    },
+    "pauses": {
+        "left": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray"
+        ],
+        "rlt": "Higher"
+    },
+    "target_emotion": "Angry",
+    "counterfactual_emotion": "Neutral",
+    "tgt_word_clips": [
+        "37/word_clips_0/tgt_let's_0.wav",
+        "37/word_clips_0/tgt_make_1.wav",
+        "37/word_clips_0/tgt_the_2.wav",
+        "37/word_clips_0/tgt_noise_3.wav",
+        "37/word_clips_0/tgt_a_4.wav",
+        "37/word_clips_0/tgt_snake_5.wav"
+    ],
+    "cf_word_clips": [
+        "37/word_clips_0/cf_let's_0.wav",
+        "37/word_clips_0/cf_make_1.wav",
+        "37/word_clips_0/cf_the_2.wav",
+        "37/word_clips_0/cf_noise_3.wav",
+        "37/word_clips_0/cf_a_4.wav",
+        "37/word_clips_0/cf_snake_5.wav"
+    ],
+    "tgt_pause_word_clips": [
+        "37/word_clips_0/tgt_consecutive_let's_make_0.wav",
+        "37/word_clips_0/tgt_consecutive_make_the_1.wav",
+        "37/word_clips_0/tgt_consecutive_the_noise_2.wav",
+        "37/word_clips_0/tgt_consecutive_noise_a_3.wav",
+        "37/word_clips_0/tgt_consecutive_a_snake_4.wav"
+    ],
+    "cf_pause_word_clips": [
+        "37/word_clips_0/cf_consecutive_let's_make_0.wav",
+        "37/word_clips_0/cf_consecutive_make_the_1.wav",
+        "37/word_clips_0/cf_consecutive_the_noise_2.wav",
+        "37/word_clips_0/cf_consecutive_noise_a_3.wav",
+        "37/word_clips_0/cf_consecutive_a_snake_4.wav"
+    ],
+    "target_audio_path": "37/word_clips_0/tgt_0.wav",
+    "counterfactual_audio_path": "37/word_clips_0/cf_0.wav"
+}
