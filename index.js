@@ -508,6 +508,9 @@ document.getElementById('right-shape-ui').style.backgroundColor = sessionColor;
 
 loadTable(`${baseDir}${id}/data_${cf.toLowerCase()}.json`);
 
+elem = document.getElementById('counterfactual-emotion-text')
+elem.innerText = cf.capitalize();
+
 /* checkFile(emotions).then(() => {
 
     // counterfactualSelect.innerHTML = "";
