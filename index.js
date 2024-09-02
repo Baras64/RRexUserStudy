@@ -502,6 +502,7 @@ var baseDir = `${new URLSearchParams(window.location.search).get("xaitype")}/${n
 var id = new URLSearchParams(window.location.search).get("id");
 var sessionColor = sessionColor2hex[new URLSearchParams(window.location.search).get("color")]
 var numCues = Number(new URLSearchParams(window.location.search).get("numcues"));
+var disableCf = new URLSearchParams(window.location.search).get("disablecf");
 
 document.getElementById('left-shape-ui').style.backgroundColor = sessionColor;
 document.getElementById('right-shape-ui').style.backgroundColor = sessionColor;
@@ -511,6 +512,10 @@ loadTable(`${baseDir}${id}/data_${cf.toLowerCase()}.json`);
 elem = document.getElementById('counterfactual-emotion-text')
 elem.innerText = cf.capitalize();
 
+if (disableCf == "true") {
+    console.log(document.getElementById('right-shape-ui'))
+    document.getElementById('right-shape-ui').style.display = "none";
+}
 /* checkFile(emotions).then(() => {
 
     // counterfactualSelect.innerHTML = "";
