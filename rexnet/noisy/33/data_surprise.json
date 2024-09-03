@@ -49,7 +49,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Higher"
+        "rlt": "Lower"
     },
     "speed": {
         "left": [
@@ -83,7 +83,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
     "target_emotion": "Happy",
     "counterfactual_emotion": "Surprise",

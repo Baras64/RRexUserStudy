@@ -61,7 +61,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Higher"
+        "rlt": "Lower"
     },
     "speed": {
         "left": [
@@ -82,7 +82,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Shorter"
+        "rlt": "Longer"
     },
     "pauses": {
         "left": [

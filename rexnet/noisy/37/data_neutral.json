@@ -93,7 +93,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Higher"
+        "rlt": "Lower"
     },
     "target_emotion": "Angry",
     "counterfactual_emotion": "Neutral",

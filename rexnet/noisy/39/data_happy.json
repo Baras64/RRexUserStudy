@@ -21,7 +21,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Lower"
+        "rlt": "Higher"
     },
     "average_pitch": {
         "left": [
@@ -44,7 +44,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Lower"
+        "rlt": "Higher"
     },
     "pitch_range": {
         "left": [

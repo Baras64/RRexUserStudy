@@ -61,7 +61,7 @@
             "rgb(69, 170, 227)",
             "lightgray"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
     "speed": {
         "left": [
@@ -82,7 +82,7 @@
             "rgb(69, 170, 227)",
             "lightgray"
         ],
-        "rlt": "Similar"
+        "rlt": "Longer"
     },
     "pauses": {
         "left": [
@@ -103,7 +103,7 @@
             "rgb(69, 170, 227)",
             "lightgray"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
     "target_emotion": "Neutral",
     "counterfactual_emotion": "Neutral",

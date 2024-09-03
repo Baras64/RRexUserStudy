@@ -19,7 +19,7 @@
             "lightgray",
             "rgb(69, 170, 227)"
         ],
-        "rlt": "Lower"
+        "rlt": "Higher"
     },
     "average_pitch": {
         "left": [
@@ -40,7 +40,7 @@
             "lightgray",
             "rgb(69, 170, 227)"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
     "pitch_range": {
         "left": [
@@ -82,7 +82,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Longer"
+        "rlt": "Similar"
     },
     "pauses": {
         "left": [
@@ -103,7 +103,7 @@
             "lightgray",
             "white"
         ],
-        "rlt": "Lower"
+        "rlt": "Similar"
     },
     "target_emotion": "Happy",
     "counterfactual_emotion": "Sad",

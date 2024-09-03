@@ -17,7 +17,7 @@
             "lightgray",
             "rgb(69, 170, 227)"
         ],
-        "rlt": "Lower"
+        "rlt": "Higher"
     },
     "average_pitch": {
         "left": [
@@ -93,7 +93,7 @@
             "rgb(69, 170, 227)",
             "white"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
     "target_emotion": "Angry",
     "counterfactual_emotion": "Neutral",

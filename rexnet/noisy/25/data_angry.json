@@ -66,7 +66,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Shorter"
+        "rlt": "Longer"
     },
     "pauses": {
         "left": [
@@ -83,7 +83,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Lower"
+        "rlt": "Higher"
     },
     "target_emotion": "Surprise",
     "counterfactual_emotion": "Angry",

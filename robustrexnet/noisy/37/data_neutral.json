@@ -36,7 +36,7 @@
             "lightgray",
             "rgb(69, 170, 227)"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
     "pitch_range": {
         "left": [
@@ -93,7 +93,7 @@
             "rgb(69, 170, 227)",
             "white"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
     "target_emotion": "Angry",
     "counterfactual_emotion": "Neutral",

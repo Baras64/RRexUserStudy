@@ -40,7 +40,7 @@
             "lightgray",
             "rgb(69, 170, 227)"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
     "pitch_range": {
         "left": [
@@ -82,7 +82,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Similar"
+        "rlt": "Longer"
     },
     "pauses": {
         "left": [
@@ -103,7 +103,7 @@
             "rgb(69, 170, 227)",
             "white"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
     "target_emotion": "Surprise",
     "counterfactual_emotion": "Neutral",

@@ -74,7 +74,7 @@
             "lightgray",
             "lightgray"
         ],
-        "rlt": "Similar"
+        "rlt": "Longer"
     },
     "pauses": {
         "left": [
@@ -93,7 +93,7 @@
             "rgb(69, 170, 227)",
             "white"
         ],
-        "rlt": "Similar"
+        "rlt": "Higher"
     },
     "target_emotion": "Sad",
     "counterfactual_emotion": "Surprise",
