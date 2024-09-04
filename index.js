@@ -437,11 +437,10 @@ function loadTable(filename, isPlay = false) {
                     // let colorRight = cueData["right"][idx];
                     //Intentionally kept it to left
                     let colorRight = cueData["left"][idx];
-
-                    if(colorLeft !== "lightgray" || colorLeft !== "white"){
+                    
+                    if(!(colorLeft == "lightgray" || colorLeft == "white")){
+                        console.log("huh")
                         colorLeft = sessionColor;
-                    }
-                    if(colorRight !== "lightgray" || colorRight !== "white"){
                         colorRight = sessionColor;
                     }
                     let cell = row.insertCell();
