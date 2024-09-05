@@ -1,0 +1,118 @@
+{
+    "text": "Our thanks to god's oath",
+    "loudness": {
+        "left": [
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "right": [
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Higher"
+    },
+    "average_pitch": {
+        "left": [
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "right": [
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Higher"
+    },
+    "pitch_range": {
+        "left": [
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "right": [
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "rgb(69, 170, 227)"
+        ],
+        "rlt": "Higher"
+    },
+    "speed": {
+        "left": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "right": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "lightgray"
+        ],
+        "rlt": "Longer"
+    },
+    "pauses": {
+        "left": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "white"
+        ],
+        "right": [
+            "lightgray",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "rgb(69, 170, 227)",
+            "white"
+        ],
+        "rlt": "Higher"
+    },
+    "target_emotion": "Angry",
+    "counterfactual_emotion": "Neutral",
+    "tgt_word_clips": [
+        "47/word_clips_0/tgt_our_0.wav",
+        "47/word_clips_0/tgt_thanks_1.wav",
+        "47/word_clips_0/tgt_to_2.wav",
+        "47/word_clips_0/tgt_god's_3.wav",
+        "47/word_clips_0/tgt_oath_4.wav"
+    ],
+    "cf_word_clips": [
+        "47/word_clips_0/cf_our_0.wav",
+        "47/word_clips_0/cf_thanks_1.wav",
+        "47/word_clips_0/cf_to_2.wav",
+        "47/word_clips_0/cf_god's_3.wav",
+        "47/word_clips_0/cf_oath_4.wav"
+    ],
+    "tgt_pause_word_clips": [
+        "47/word_clips_0/tgt_consecutive_our_thanks_0.wav",
+        "47/word_clips_0/tgt_consecutive_thanks_to_1.wav",
+        "47/word_clips_0/tgt_consecutive_to_god's_2.wav",
+        "47/word_clips_0/tgt_consecutive_god's_oath_3.wav"
+    ],
+    "cf_pause_word_clips": [
+        "47/word_clips_0/cf_consecutive_our_thanks_0.wav",
+        "47/word_clips_0/cf_consecutive_thanks_to_1.wav",
+        "47/word_clips_0/cf_consecutive_to_god's_2.wav",
+        "47/word_clips_0/cf_consecutive_god's_oath_3.wav"
+    ],
+    "target_audio_path": "47/word_clips_0/tgt_0.wav",
+    "counterfactual_audio_path": "47/word_clips_0/cf_0.wav"
+}

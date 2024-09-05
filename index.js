@@ -196,7 +196,9 @@ function createCapsule(colorLeft, colorRight, audioPathLeft, audioPathRight) {
 
     // addAudioPlayback(rightShape, audioPathRight, true)
 
-    addBothAudioPlayback(leftShape, rightShape, audioPathLeft, audioPathRight)
+    if (disableUI !== "true") {
+        addBothAudioPlayback(leftShape, rightShape, audioPathLeft, audioPathRight)
+    }
 
     container.appendChild(leftShape);
     container.appendChild(gap);
@@ -245,8 +247,9 @@ function createTriangle(colorLeft, colorRight, audioPathLeft, audioPathRight) {
     rightShape.appendChild(rightPlayBtn);
 
     // addAudioPlayback(rightShape, audioPathRight, false)
-
-    addBothAudioPlayback(leftShape, rightShape, audioPathLeft, audioPathRight)
+    if (disableUI !== "true") {
+        addBothAudioPlayback(leftShape, rightShape, audioPathLeft, audioPathRight)
+    }
 
     container.appendChild(leftShape);
     container.appendChild(rightShape);
@@ -329,7 +332,16 @@ function loadTable(filename, isPlay = false) {
             cell = row.insertCell();
             cell.innerHTML = "This voice has:";
 
-            for (let index = 0; index < numCues; index++) {
+            for (let index = 0; index < 5; index++) {
+
+                if (numCues == 3) {
+                    if (index == 2) {
+                        continue;
+                    }
+                    else if (index == 4) {
+                        continue;
+                    }
+                }
                 cueData = data[idx2cueidx[index]]
                 let row = mapTable.insertRow();
                 row.value = index;
@@ -402,18 +414,20 @@ function loadTable(filename, isPlay = false) {
                     cueStr = "speaking time"
                 }
 
-                if (cueData.rlt == "Similar") {
-                    // cell.title = `Actual has ${cueData.rlt.toLowerCase()} ${cueidx2cue[idx2cueidx[index]].toLowerCase()} to ${data.counterfactual_emotion}`;
-                    let elem = document.createElement('span');
-                    elem.classList.add("tooltiptext");
-                    elem.innerHTML = `<u>Actual</u> has ${cueData.rlt.toLowerCase()} ${cueStr} to ${data.counterfactual_emotion} <br> Actual could be:${newEmotionsArr.join(",")}`;
-                    cell.appendChild(elem);
-                } else {
-                    // cell.title = `Actual has ${cueData.rlt.toLowerCase()} ${cueidx2cue[idx2cueidx[index]].toLowerCase()} than ${data.counterfactual_emotion}`;
-                    let elem = document.createElement('span');
-                    elem.classList.add("tooltiptext");
-                    elem.innerHTML = `<u>Actual</u> has ${cueData.rlt.toLowerCase()} ${cueStr} than ${data.counterfactual_emotion} <br> Actual could be:${newEmotionsArr.join(",")}`;
-                    cell.appendChild(elem);
+                if (disableUI !== "true") {
+                    if (cueData.rlt == "Similar") {
+                        // cell.title = `Actual has ${cueData.rlt.toLowerCase()} ${cueidx2cue[idx2cueidx[index]].toLowerCase()} to ${data.counterfactual_emotion}`;
+                        let elem = document.createElement('span');
+                        elem.classList.add("tooltiptext");
+                        elem.innerHTML = `<u>Actual</u> has ${cueData.rlt.toLowerCase()} ${cueStr} to ${data.counterfactual_emotion} <br> Actual could be:${newEmotionsArr.join(",")}`;
+                        cell.appendChild(elem);
+                    } else {
+                        // cell.title = `Actual has ${cueData.rlt.toLowerCase()} ${cueidx2cue[idx2cueidx[index]].toLowerCase()} than ${data.counterfactual_emotion}`;
+                        let elem = document.createElement('span');
+                        elem.classList.add("tooltiptext");
+                        elem.innerHTML = `<u>Actual</u> has ${cueData.rlt.toLowerCase()} ${cueStr} than ${data.counterfactual_emotion} <br> Actual could be:${newEmotionsArr.join(",")}`;
+                        cell.appendChild(elem);
+                    }
                 }
 
                 insertPaddedCell(row, '10px');
@@ -433,12 +447,21 @@ function loadTable(filename, isPlay = false) {
                 insertPaddedCell(row);
 
                 words.forEach((element, idx) => {
+
+                    if (numCues == 3) {
+                        if (index == 2) {
+                            return;
+                        }
+                        else if (index == 5) {
+                            return;
+                        }
+                    }
                     let colorLeft = cueData["left"][idx];
                     // let colorRight = cueData["right"][idx];
                     //Intentionally kept it to left
                     let colorRight = cueData["left"][idx];
-                    
-                    if(!(colorLeft == "lightgray" || colorLeft == "white")){
+
+                    if (!(colorLeft == "lightgray" || colorLeft == "white")) {
                         console.log("huh")
                         colorLeft = sessionColor;
                         colorRight = sessionColor;
@@ -502,6 +525,8 @@ var id = new URLSearchParams(window.location.search).get("id");
 var sessionColor = sessionColor2hex[new URLSearchParams(window.location.search).get("color")]
 var numCues = Number(new URLSearchParams(window.location.search).get("numcues"));
 var disableCf = new URLSearchParams(window.location.search).get("disablecf");
+
+var disableUI = new URLSearchParams(window.location.search).get("disableui");
 
 document.getElementById('left-shape-ui').style.backgroundColor = sessionColor;
 document.getElementById('right-shape-ui').style.backgroundColor = sessionColor;
