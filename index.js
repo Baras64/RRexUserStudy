@@ -57,7 +57,7 @@ const rlt2color = {
 }
 
 const sessionColor2hex = {
-    "blue": "rgb(69, 170, 227)",
+    "blue": "#008BFB",
     "purple": "#9659d4"
 }
 
